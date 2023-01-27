@@ -1,0 +1,191 @@
+@font-face {
+    font-family: waltographUI;
+    src: url("/Fuentes/waltographUI.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Color de los titulos*/
+h1{
+    font-family: waltographUI;
+    text-align: center;
+}
+
+h2{
+    text-align: center; 
+    font-family: waltographUI;
+}
+
+body{
+    background-image: url("/Imagenes/Fondobody\ copia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Centralizacion de las imagenes de la pagina index*/
+.Pprincipales img{
+    width: 500px;
+    height: 430px;
+    border: double 5px;
+    border-color:  #cda434;
+}
+
+/*Cuenta regresiva*/
+#cuenta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    text-align: center; 
+    font-family: waltographUI;
+}
+
+.simply-section{
+    background-color: #fff;
+    width:  180px;
+    height: 180px;
+    margin: 0 20px; 
+    border-radius:  5px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simply-amount{
+    display: block;
+    font-size:  50px;
+    font-weight: 700;
+}
+
+.simply-word{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.Confirmar_asistencia{
+    margin: 0 20px; 
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: waltographUI;
+}
+
+.rounded{
+    border: double 5px;
+    border-color:  #cda434;
+}
+
+@media(max-width: 1200px){
+    body{
+        font-size: 18px;
+    }
+    .Pprincipales img{
+        width: 350px;
+        height: 250px;
+        border: double 5px;
+        border-color:  #cda434;
+    }
+}
+@media(max-width: 991px){
+    .Pprincipales img{
+        width: 290px;
+        height: 350px;
+        border: double 5px;
+        border-color:  #cda434;
+    }
+
+    .simply-section{
+        background-color: #fff;
+        width:  110px;
+        height: 110px;
+        margin: 0 20px; 
+        border-radius:  5px;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .simply-amount{
+        display: block;
+        font-size:  30px;
+        font-weight: 700;
+    }
+    
+    .simply-word{
+        font-weight: 200;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 767px){
+    .Pprincipales img{
+        width: 400px;
+        height: 350px;
+        border: double 5px;
+        border-color:  #cda434;
+    }
+
+    .simply-section{
+        background-color: #fff;
+        width:  80px;
+        height: 80px;
+        margin: 0 20px; 
+        border-radius:  5px;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .simply-amount{
+        display: block;
+        font-size:  20px;
+        font-weight: 500;
+    }
+    
+    .simply-word{
+        font-weight: 150;
+        font-size: 15px;
+    }
+    
+    .rounded{
+        width: 400px;
+        height: 250px;
+    }
+}
+@media(max-width: 500px){
+    .Pprincipales img{
+        width: 350px;
+        height: 300px;
+        border: double 4px;
+        border-color:  #cda434;
+    }
+
+    .simply-section{
+        background-color: #fff;
+        width:  80px;
+        height: 80px;
+        margin: 0 20px; 
+        border-radius:  5px;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .simply-amount{
+        display: block;
+        font-size:  20px;
+        font-weight: 500;
+    }
+    
+    .simply-word{
+        font-weight: 150;
+        font-size: 15px;
+    }
+
+    .hilton{
+        width: 350px;
+        height: 300px;
+    }
+}

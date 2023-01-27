@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: linear-gradient(to top, rgb(151, 75, 223), rgb(160, 74, 240), #ffc4e5, #ffa6d8);
+}
+.card{
+    width: 250px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card img{
+    height: 70%;
+}
+.card{
+    grid-area: Imagenes;
+    transition: all 0s ease-in;
+}
+.card:hover{
+    transform: scale(1.1, 1.1);
+}
+footer{
+    background-color: #7d7a7d;
+    height: 210px;
+    display: block;
+    margin: auto;
+}
+/*Color de parrafos de los contactos*/
+.contactos{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
