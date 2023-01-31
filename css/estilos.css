@@ -27,6 +27,11 @@ h3{
     font-family: DisneyDreams;
 }
 
+label{
+    text-align: center; 
+    font-family: DisneyDreams;
+}
+
 body{
     background-image: url("/Imagenes/Fondobody\ copia.jpg");
     background-repeat: no-repeat;
