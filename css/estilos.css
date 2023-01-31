@@ -2,6 +2,10 @@
     font-family: waltographUI;
     src: url("/Fuentes/waltographUI.ttf");
 }
+@font-face {
+    font-family: DisneyDreams;
+    src: url("/Fuentes/DisneyDreams.otf");
+}
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +20,11 @@ h1{
 h2{
     text-align: center; 
     font-family: waltographUI;
+}
+
+h3{
+    text-align: center; 
+    font-family: DisneyDreams;
 }
 
 body{
@@ -209,5 +218,9 @@ body{
     .Logo{
         width: 250px;
         height: 250px;
+    }
+
+    body{
+        background-image: url("/Imagenes/Fondobody\ copia.jpg");
     }
 }
