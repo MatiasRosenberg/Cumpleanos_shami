@@ -27,6 +27,12 @@ h3{
     font-family: DisneyDreams;
 }
 
+.Donde{
+    text-align: center; 
+    font-size: 30px;
+    font-family: DisneyDreams;
+}
+
 body{
     background-image: url("/Imagenes/Fondobody\ copia.jpg");
     background-repeat: no-repeat;
