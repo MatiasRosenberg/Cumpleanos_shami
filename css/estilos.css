@@ -99,6 +99,11 @@ body{
     height: 500px;
 }
 
+.audio{
+    width: 100px;
+    height: 100px;
+}
+
 @media(max-width: 1200px){
     body{
         font-size: 18px;
